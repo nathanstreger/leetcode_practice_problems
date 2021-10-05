@@ -26,7 +26,7 @@ public class LongestCommonPrefix {
 
     //optimized second solution
 
-    public String optimizedLongestCommonPrefix(String[] strs) {
+    public String optimizedlongestCommonPrefix(String[] strs) {
         Arrays.sort(strs);
         String start = strs[0];
         String end = strs[strs.length - 1];
